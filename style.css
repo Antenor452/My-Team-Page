@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:wght@700&family=Poppins:wght@600&display=swap");
+
+:root {
+  --titleFont: 36px;
+  --headingFont: 18px;
+  --nameFont: 16px;
+  --postionFont: 12px;
+  --footerFont: 14px;
+  --fw700: 700;
+  --fw600: 600;
+  --fw500: 500;
+  --fw400: 400;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.serif {
+  font-family: "PT Serif", serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: var(--fw700);
+}
+
+.heading {
+  font-weight: var(--fw600);
+  font-size: var(--headingFont);
+}
+
+.team-des {
+  font-weight: var(--fw400);
+  font-size: var(--headingFont);
+}
+
+.person-container {
+  height: 500px;
+}
+
+.person-card img {
+  width: 238px;
+}
+
+.person-position {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-weight: var(--fw400);
+  font-size: var(--postionFont);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.person-name {
+  font-weight: var(--fw600);
+  font-size: var(--headingFont);
+}
+section {
+  margin-top: 5rem;
+}
+
+footer {
+  margin-top: 2rem;
+  color: #a9a9a9;
+  font-size: var(--footerFont);
+  font-weight: var(--fw700);
+}
+/* MediaQuery */
+@media screen and (max-width: 600px) {
+  section{
+    margin-top: 3rem;
+  }
+  .person-card img {
+    width: 138px;
+  }
+
+  .person-container {
+    height: 300px;
+  }
+}
+
+/* Tests */
